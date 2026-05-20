@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,7 +21,7 @@
             <a href="index.html">Home</a> |
             <a href="about.html">More About Me</a> |
             <a href="contact.html">Contact</a> |
-            <a href="#visitor form">Visitor Form</a> |
+            <a href="#visitor-form">Visitor Form</a> |
             <a href="https://www.dlsu.edu.ph/" target="_blank">
                 DLSU Website
             </a>
@@ -35,7 +37,8 @@
 
             <h2>You can contact me here:</h2>
 
-            <table width="100%">
+            <table width="100%"
+                class="contact-table>
 
                 <tr>
 
@@ -47,7 +50,16 @@
 
                         <p><strong>Address:</strong> Pres. Quirino Ave. Ext. cor. Zulueta St., Paco, Manila, Brgy. 678, Zone 74</p>
 
-                        <p><strong>GitHub:</strong> github.com/EmmanAr</p>
+                        <p>
+                            <strong>GitHub:</strong>
+
+                            <a href="https://github.com/EmmanAr"
+                            target="_blank">
+
+                            github.com/EmmanAr
+
+                            </a>
+                        </p>
 
                     </td>
 
@@ -69,11 +81,11 @@
 
         <br>
 
-        <section id="visitor form">
+        <section id="visitor-form">
 
             <h2>Visitor Form</h2>
 
-            <form>
+            <form class="visitor-form">
 
                 <label for="name">Name:</label><br>
 
@@ -139,6 +151,8 @@
 
                 <input type="submit"
                     value="Submit">
+                <input type="reset" 
+                    value="Clear">
 
             </form>
 
