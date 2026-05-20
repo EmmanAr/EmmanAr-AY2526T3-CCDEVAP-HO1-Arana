@@ -1,6 +1,6 @@
-/* =========================
+/*
    GENERAL STYLING
-========================= */
+*/
 
 body {
     font-family: Arial, sans-serif;
@@ -17,17 +17,17 @@ body {
     animation: slideIn 1s ease-out;
 }
 
-/* =========================
+/*
    SMOOTH SCROLL
-========================= */
+*/
 
 html {
     scroll-behavior: smooth;
 }
 
-/* =========================
+/*
    HEADER
-========================= */
+*/
 
 header {
     background-color: #006633;
@@ -45,9 +45,9 @@ header h1 {
     animation: glowTitle 2s infinite alternate;
 }
 
-/* =========================
+/*
    NAVIGATION
-========================= */
+*/
 
 nav {
     margin-top: 15px;
@@ -68,17 +68,17 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* =========================
+/* 
    MAIN CONTENT
-========================= */
+*/
 
 main {
     padding: 25px;
 }
 
-/* =========================
+/*
    SECTION STYLING
-========================= */
+*/
 
 section {
     background-color: white;
@@ -99,9 +99,9 @@ section:hover {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
-/* =========================
+/*
    HEADINGS
-========================= */
+*/
 
 h2 {
     color: #006633;
@@ -117,9 +117,9 @@ h1, h2, h3, p, li, a, td, th, label {
     animation: textSlide 1.2s ease-out;
 }
 
-/* =========================
+/*
    TABLE STYLING
-========================= */
+*/
 
 table {
     width: 100%;
@@ -151,9 +151,9 @@ tr:hover {
     border-radius: 10px;
 }
 
-/* =========================
+/*
    IMAGES / MEDIA
-========================= */
+*/
 
 img {
     transition: 0.3s;
@@ -182,9 +182,9 @@ audio {
     width: 300px;
 }
 
-/* =========================
+/*
    LISTS
-========================= */
+*/
 
 ul {
     padding-left: 20px;
@@ -199,9 +199,9 @@ li {
     padding-left: 0;
 }
 
-/* =========================
+/*
    FORM STYLING
-========================= */
+*/
 
 form {
     margin-top: 15px;
@@ -261,9 +261,9 @@ input[type="reset"]:hover {
     transform: scale(1.05);
 }
 
-/* =========================
+/*
    LINKS
-========================= */
+*/
 
 a {
     color: #006633;
@@ -283,9 +283,9 @@ a:active {
     color: #ff6600;
 }
 
-/* =========================
+/*
    FOOTER
-========================= */
+*/
 
 footer {
     background-color: #006633;
@@ -297,9 +297,9 @@ footer {
     border-top: 4px solid #ffd700;
 }
 
-/* =========================
+/*
    ANIMATIONS
-========================= */
+*/
 
 @keyframes slideIn {
     from {
